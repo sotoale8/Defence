@@ -16,6 +16,7 @@ public class RtsController : MonoBehaviour
     void Start()
     {
         selectedUnits= new List<UnitsRTS>();
+        print("prueba");
     }
 
     void Update()
@@ -46,8 +47,8 @@ public class RtsController : MonoBehaviour
                     collider.GetComponent<UnitsRTS>().SetSelectedVisible(true);
                     selectedUnits.Add(collider.GetComponent<UnitsRTS>());
                }
+             Debug.Log(collider.name);
             }
-            Debug.Log(selectedUnits.Count);
           }  
     }
 
