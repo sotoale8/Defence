@@ -6,6 +6,7 @@ public class Controller : MonoBehaviour
     void Start()
     {
         Debug.Log("archivo2");
+        Debug.Log("archivo2");
     }
 
     // Update is called once per frame
