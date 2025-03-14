@@ -17,6 +17,7 @@ public class RtsController : MonoBehaviour
     {
         selectedUnits= new List<UnitsRTS>();
         print("prueba");
+        print("prueba");
     }
 
     void Update()
